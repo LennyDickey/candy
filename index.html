@@ -12,10 +12,10 @@
     <header>
       <nav class="header__nav">
         <div class="header__logo">
-          <h4>KawaiiTreats</h4>
+          <h4 data-aos="fade-down">KawaiiTreats</h4>
           <div class="header__logo-overlay"></div>
         </div>
-        <ul class="header__menu">
+        <ul class="header__menu" data-aos="fade-down">
           <li>
             <a href="#menu">Menu</a>
           </li>
@@ -32,7 +32,7 @@
             <img src="assets/search.svg" alt="search" />
           </li>
         </ul>
-        <ul class="header__menu-mobile">
+        <ul class="header__menu-mobile" data-aos="fade-down">
           <li>
             <img src="assets/menu.svg" alt="menu" />
           </li>
@@ -41,8 +41,8 @@
     </header>
     <section class="hero">
       <div class="hero-image">
-        <img src="assets/candy-1.png" alt="candy" data-asos="fade=up" />
-        <h2 data-asos="fade-up">
+        <img src="assets/candy-1.png" alt="candy" data-aos="fade=up" />
+        <h2 data-aos="fade-up">
           お <br />
           や <br />
           つ
@@ -50,7 +50,8 @@
         <div class="hero-image__overlay"></div>
       </div>
       <div class="hero-content">
-        <div class="hero-content-info">
+        <div class="hero-content-info"
+        data-aos="fade-left">
           <h1>Feel the taste of Japanese candy</h1>
           <p>
             Feel the taste of the most popular Japanese sweets from anywhere and
@@ -65,7 +66,7 @@
             </button>
           </div>
         </div>
-        <div class="hero-content__testimonial" data-asos="fade-up">
+        <div class="hero-content__testimonial" data-aos="fade-up">
           <div class="hero-content__customer flex-center">
             <h4>88<span>k+</span></h4>
             <p>Happy Customers</p>
@@ -84,7 +85,7 @@
     <section class="about-us" id="about-us">
       <div class="about-us__image">
         <div class="about-us__image-candy3">
-          <img src="assets/candy-2.png" alt="candy" data-aos="fade-right" />
+          <img src="assets/candy-20.png" alt="candy" data-aos="fade-right" />
         </div>
         <button class="about-us__button">
           Learn More
@@ -94,7 +95,8 @@
           <img src="assets/candy-4.png" alt="candy" data-aos="fade-right" />
         </div>
       </div>
-      <div class="about-us__content">
+      <div class="about-us__content"
+      data-aos="fade-left">
         <h4 class="candy__subtitle">About Us / 私たちについて</h4>
         <h3 class="candy__title">
           Our mission is to bring true Japanese flavours to you.
@@ -107,7 +109,7 @@
     </section>
 
     <section class="popular-foods" id="menu">
-      <h2 class="popular-foods__title">Popular / 人気</h2>
+      <h2 class="popular-foods__title" data-aos="flip-up">Popular / 人気</h2>
 
       <div class="popular-foods__filters candy__hide-scrollbar">
         <button class="popular-foods__btn active">All</button>
@@ -128,16 +130,223 @@
         <button class="popular-foods__btn">Other</button>
       </div>
 
-      <div class="popular-foods_catalogue">
-        <!--- javascript --->
+      <div class="popular-foods__catalogue" data-aos="fade-up">
+        <article class="popular-foods__card">
+          <img class="popular-foods__card-image" src="assets/candy-12.png" alt="candy-12" />
+          <h4 class="popular-foods__card-title">Crackers</h4>
+
+          <div class="popular-foods__card-details flex-between">
+            <div class="popular-foods__card-rating">
+              <img src="assets/star.svg" alt="star" />
+              <p>4.9</p>
+            </div>
+
+            <p class="popular-foods__card-price">$7.00</p>
+          </div>
+        </article>
+
+        <article class="popular-foods__card active-card">
+          <img class="popular-foods__card-image" src="assets/candy-11.png" alt="candy-11" />
+          <h4 class="popular-foods__card-title">Chocolate</h4>
+          
+          <div class="popular-foods__card-details flex-between">
+            <div class="popular-foods__card-rating">
+              <img src="assets/star.svg" alt="star" />
+              <p>5.0</p>
+            </div>
+            
+            <p class="popular-foods__card-price">$9.00</p>
+          </div>
+        </article>
+
+        <article class="popular-foods__card">
+          <img class="popular-foods__card-image" src="assets/candy-10.png" alt="candy-10" />
+          <h4 class="popular-foods__card-title">Soda</h4>
+
+          <div class="popular-foods__card-details flex-between">
+            <div class="popular-foods__card-rating">
+              <img src="assets/star.svg" alt="star" />
+              <p>4.7</p>
+            </div>
+
+            <p class="popular-foods__card-price">$5.00</p>
+          </div>
+        </article>
       </div>
 
       <button class="popular-foods__button">
         Explore Food
-        <img src="assets/arrow-right.svg" alt="arrow-right" />
+        <img src="assets/arrow-right.svg"  alt="arrow-right" />
       </button>
     </section>
 
+    <section class="trending" id="food">
+      <section class="trending-candy">
+        <div class="trending__content" data-aos="fade-right">
+          <p class="candy__subtitle">What’s Trending / トレンド</p>
+  
+          <h3 class="candy__title">Japanese Snacks
+          </h3>
+          <p class="candy__description">Feel the taste of the most delicious Snacks here.
+          </p>
+  
+          <ul class="trending__list flex-between">
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>Make Snacks</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>Mochi</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>Pocky</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>Dango</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>Taiyaki</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>Senbei</p>
+            </li>
+          </ul>
+        </div>
+  
+        <div class="trending__image flex-center">
+          <img src="assets/candy-15.png" alt="candy-15" data-aos="fade-left" />
+  
+          <div class="trending__arrow trending__arrow-left">
+            <img src="assets/arrow-vertical.svg" alt="arrow vertical" />
+          </div>
+  
+          <div class="trending__arrow trending__arrow-bottom">
+            <img src="assets/arrow-horizontal.svg" alt="arrow horizontal" />
+          </div>
+        </div>
+
+      </section>
+      <div class="trending__discover" data-aos="zoom-in">
+        <p>Discover</p>
+      </div>
+      <section class="trending-drinks">
+        <div class="trending__image flex-center">
+          <img src="assets/candy-16.png" alt="candy-13" data-aos="fade-right" />
+  
+          <div class="trending__arrow trending__arrow-top">
+            <img src="assets/arrow-horizontal.svg" alt="arrow horizontal" />
+          </div>
+  
+          <div class="trending__arrow trending__arrow-right">
+            <img src="assets/arrow-vertical.svg" alt="arrow vertical" />
+          </div>
+        </div>
+
+        <div class="trending__content" data-aos="fade-left">
+          <p class="candy__subtitle">What’s Trending / トレンド</p>
+  
+          <h3 class="candy__title">Japanese Drinks
+          </h3>
+          <p class="candy__description">Feel the taste of the most delicious Japanese drinks here.
+          </p>
+  
+          <ul class="trending__list flex-between">
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>Oruncha</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>
+                Sakura Tea</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>Aojiru</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>Ofukucha</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>Kombucha</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>Mugicha</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </section>
+
+    <section class="subscription flex-center" id="services">
+      <h2 data-aos="flip-down">
+        Get offers straight <br />
+        to your inbox
+      </h2>
+      <p data-aos="fade-up">Sign up for the KawaiiTreats newsletter</p>
+
+      <div class="subscription__form" data-aos="fade-up">
+        <input type="text" placeholder="Enter your email address"/>
+        <button>Get Started</button>
+      </div>
+    </section>
+
+    <footer class="footer flex-between">
+      <h3 class="footer__logo">
+        <span>Kawaii</span>Treats
+      </h3>
+
+      <ul class="footer__nav">
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#food">Food</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about-us">About Us</a></li>
+      </ul>
+
+      <ul class="footer__social">
+        <li class="flex-center">
+          <img src="assets/facebook.svg" alt="facebook" />
+        </li>
+        <li class="flex-center">
+          <img src="assets/instagram.svg" alt="instagram" />
+        </li>
+        <li class="flex-center">
+          <img src="assets/twitter.svg" alt="twitter" />
+        </li>
+      </ul>
+    </footer>
     <script src="js/script.js" type="module"></script>
   </body>
 </html>
